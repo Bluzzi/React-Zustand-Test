@@ -11,7 +11,7 @@ export default function Home(): ReactElement {
         <Button onClick={() => count.decrement(5)}>-5</Button>
         <Button onClick={() => count.decrement()}>-1</Button>
         <Button onClick={count.reset}>set 0</Button>
-        <Button onClick={() => count.decrement()}>+1</Button>
+        <Button onClick={() => count.increment()}>+1</Button>
         <Button onClick={() => count.increment(5)}>+5</Button>
       </div>
 
