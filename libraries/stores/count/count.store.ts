@@ -1,4 +1,4 @@
-import create from "zustand";
+import { create } from "zustand";
 import { CountStore } from "./count.type";
 
 export const useCountStore = create<CountStore>(set => ({
